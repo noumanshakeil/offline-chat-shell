@@ -1,0 +1,13 @@
+[project]
+name = "offline-chat-shell"
+version = "2.0.0"
+description = "Offline-first chat shell with a local mock model, durable message queue, sync status badges, and an operator view of pending vs synced messages."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
